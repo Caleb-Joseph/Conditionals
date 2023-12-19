@@ -1,0 +1,53 @@
+#include <iostream>
+using namespace std;
+int main() {
+  double earthW;
+  int planetN;
+  double newW;
+  cout << "Please enter your earth weight\n";
+  cin >> earthW;
+cout<< "Please pick a planet ";
+cout<<"\n1. Mercury\n 2. Venus\n 3. Mars\n 4. Jupiter\n 5. Saturn\n 6. Uranus\n 7. Neptune\n";
+cin >> planetN;
+switch (planetN) {
+  case 1 :
+    newW = (0.38*earthW)/9.81;
+    cout << "On Mercury you would weigh "<< newW<< "\n"; 
+    break;
+  case 2 :
+    newW = (0.91*earthW)/9.81;
+    cout<< "On Venus you would weigh "<< newW<< " Pounds" "\n"; 
+    break;
+  case 3 :
+    newW = (0.38*earthW)/9.81;
+    cout<< "On Mars you would weigh "<< newW<< "\n"; 
+    break;
+  case 4 :
+    newW = (2.34*earthW)/9.81;
+    cout<< "On Jupiter you would weigh "<< newW<< "\n"; 
+    break;  
+  case 5 :
+    newW = (1.06*earthW)/9.81;
+    cout<< "On Saturn you would weigh "<< newW<< "\n"; 
+    break;  
+  case 6 :
+    newW = (0.92*earthW)/9.81;
+    cout<< "On Uranus you would weigh "<< newW<< "\n"; 
+    break;     
+  case 7 :
+   newW = (1.19*earthW)/9.81;
+    cout<< "On Neptune you would weigh "<< newW<< "\n"; 
+    break;       
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
